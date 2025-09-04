@@ -35,6 +35,7 @@ _canonical_methods = [
     ("mctc-gcp", {"method": "dft/sv"}, {}),
     ("mace", {"method": "small"}, {}),
     ("aimnet2", {"method": "b973c"}, {}),
+    ("qcmlforge", {"method": "apnet2"}, {}),
     # add as programs available
     # ("terachem", {"method": "bad"}),
 ]
