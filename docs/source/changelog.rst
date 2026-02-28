@@ -1,7 +1,7 @@
 Changelog
 =========
 
-.. vX.Y.0 / 2025-MM-DD (Unreleased)
+.. vX.Y.0 / 2026-MM-DD (Unreleased)
 .. --------------------
 ..
 .. Breaking Changes
@@ -28,25 +28,37 @@ Changelog
 .. - UNSOLVED (:issue:`397`) extras failed
 
 
-v0.34.0 / 2025-MM-DD (Unreleased)
---------------------
+.. _`sec:cl0341`:
 
-Breaking Changes
-++++++++++++++++
+0.34.1 / 2026-02-15
+-------------------
 
-New Features
-++++++++++++
+`Docs <https://MolSSI.github.io/QCEngine/v0.34.1/>`_
 
 Enhancements
 ++++++++++++
+- (:pr:`492`) Docs - Set up documentation build to store versions of documentation for each tag plus dev.
+  Note that this changes intersphinx links. Below is current.
 
-Bug Fixes
-+++++++++
+.. code:: python
+
+    "qcelemental": ("https://molssi.github.io/QCElemental/dev/", None),
+    "qcengine": ("https://molssi.github.io/QCEngine/dev/", None),
+    "qcfractal": ("https://molssi.github.io/QCFractal/", None),
+
+Misc.
++++++
+- (:pr:`491`) Maint - update CI lanes for setuptools dropping pkg_resources and psi4 not pinned to right libmints. @loriab
+
+
+v0.34.0 / 2026-01-16
+--------------------
 
 Misc.
 +++++
 - (:pr:`483`) Maint - update CI lanes for smirnoff-Frosst and pkg_resources import changes and Windows challenges. @loriab
 - (:pr:`487`) Maint - update CI lanes for spacing and old Psi4 needing defaults channel. @loriab
+- (:pr:`489`) Maint - encode in setup.py that QCEngine cannot work with Python 3.14. @loriab
 
 
 v0.33.0 / 2025-07-31
