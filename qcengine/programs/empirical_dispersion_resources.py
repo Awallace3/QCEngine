@@ -710,8 +710,8 @@ dashcoeff = {
             "wpbe": {"params": {"s6": 1.000, "s8": 0.906564, "a1": 0.563761, "a2": 3.593680}},  # formerly lcwpbe
             "sapt0": {"params": {"s6": 1.000, "s8": 0.713190, "a1": 0.079541, "a2": 3.627854}},  # JBS 01/2021
             "hf": {"params": {"s6": 1.000, "s8": 0.713190, "a1": 0.079541, "a2": 3.627854}},  # JBS 01/2021
-            "sapt(pbe0)(i)": {"params": {"s6": 1.000, "s8": 0.8614, "a1": 0.7171, "a2": 0.5375}}, # AMW 2/26
-            "sapt(b3lyp)(i)": {"params": {"s6": 1.000, "s8": 0.9299, "a1": 0.7142, "a2": 0.4397}}, # AMW 2/26
+            "sapt(pbe0)(i)": {"params": {"s6": 1.000, "s8": 0.8614, "a1": 0.7171, "a2": 0.5375}},  # AMW 2/26
+            "sapt(b3lyp)(i)": {"params": {"s6": 1.000, "s8": 0.9299, "a1": 0.7142, "a2": 0.4397}},  # AMW 2/26
             "sapt(pbe0)(s)": {"params": {"s6": 1.000, "s8": 0.8902, "a1": 0.4509, "a2": 1.6463}},  # AMW 2/26
             "sapt(b3lyp)(s)": {"params": {"s6": 1.000, "s8": 0.9841, "a1": 0.4866, "a2": 1.4154}},  # AMW 2/26
         },
@@ -959,14 +959,14 @@ dashcoeff = {
                     "s6": 1.0,
                     "s8": 1.2042,
                     "a1": 0.9090,
-                    "a2": 0.0, # change to 0.0?
+                    "a2": 0.0,  # change to 0.0?
                     "s9": 0.0,
                     "alp": 16.0,
                     "ga": 3.0,
                     "gc": 2.0,
                     "wf": 6.0,
                 },
-                "citation": '    Wallace, A. M.; Sherrill, C. D., (TBD)',
+                "citation": "    Wallace, A. M.; Sherrill, C. D., (TBD)",
             },  # AMW 2/26, LoS-II Total aDZ MAE 0.49 kcal/mol
             "sapt(pbe0)(i)": {
                 "params": {
